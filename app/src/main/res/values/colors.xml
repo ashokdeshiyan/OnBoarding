@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#404242</color>
+    <color name="colorPrimaryDark">#1E2020</color>
+    <color name="colorAccent">#C0CA33</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitetrans">#CCCCCC</color>
+    <color name="tabgrey">#B6B4B4</color>
+    <color name="contactsbg">#EE715E7C</color>
+
+
+</resources>

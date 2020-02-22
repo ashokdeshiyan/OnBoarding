@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OnBoarding</string>
+    <string name="skip">SKIP</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Searxh Here</string>
+    <string name="loremtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard</string>
+    <string name="close">CLOSE</string>
+    <string name="ok">OK</string>
+    <string name="message_dialog">Message Dialog</string>
+    <string name="time_piker">Time Piker</string>
+    <string name="form_dialog">Form Dialog</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

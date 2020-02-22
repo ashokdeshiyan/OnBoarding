@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.HomeActvity"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="@dimen/_10sdp"
+      >
+
+      <Button
+          android:id="@+id/msgdialog"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/message_dialog"
+          android:background="@drawable/btnrnd"
+          android:layout_marginBottom="@dimen/_10sdp"
+          />
+
+      <Button
+          android:id="@+id/timepiker"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/time_piker"
+          android:textColor="@color/white"
+          android:layout_marginBottom="@dimen/_10sdp"
+          android:background="@drawable/btnradius"
+          />
+
+      <Button
+          android:id="@+id/listitems"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/_10sdp"
+          android:text="List Dialoag" />
+
+      <Button
+          android:id="@+id/forms"
+          android:layout_width="@dimen/_100sdp"
+          android:layout_height="@dimen/_100sdp"
+          android:layout_gravity="center_horizontal"
+          android:textColor="@color/white"
+          android:text="@string/form_dialog"
+          android:background="@drawable/randomone"
+          />
+  </LinearLayout>
+
+    <!--bottom sheet container-->
+    <FrameLayout
+        android:id="@+id/framebottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ListView
+        android:id="@+id/contactlist"
+        android:layout_width="match_parent"
+        android:background="@color/contactsbg"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

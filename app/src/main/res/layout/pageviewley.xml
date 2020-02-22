@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pageviewer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/code" />
+
+    <TextView
+        android:id="@+id/tvheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24sdp" />
+
+    <TextView
+        android:id="@+id/tvdisc"
+        android:lineSpacingExtra="@dimen/_2sdp"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvheading"
+        android:textAlignment="center"
+        android:textColor="@color/whitetrans"
+        android:textSize="@dimen/_16sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="TextView" />
+</RelativeLayout>
